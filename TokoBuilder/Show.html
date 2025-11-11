@@ -1,0 +1,373 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Information System
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <div class="flex flex-col min-h-screen">
+   <!-- Header -->
+   <header class="bg-blue-600 text-white p-4 flex justify-between items-center">
+    <h1 class="text-lg font-semibold">
+     Information System
+    </h1>
+    <div class="flex items-center">
+     <img alt="User profile picture" class="rounded-full w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/piQDY1jTeFTCTSdOQwwNt3B6D8mkeEhffTjSuhVgcKkctNgPB.jpg" width="40"/>
+     <i class="fas fa-chevron-down ml-2">
+     </i>
+    </div>
+   </header>
+   <div class="flex flex-1">
+    <!-- Sidebar -->
+    <aside class="bg-white w-64 p-4 shadow-md">
+     <div class="flex flex-col items-center">
+      <img alt="Admin profile picture" class="rounded-full w-20 h-20 mb-2" height="80" src="https://storage.googleapis.com/a1aa/image/ZRIfZo9UEb0GMyutiEppolwV5aAsPxdSfsZPknysy1jYbD4TA.jpg" width="80"/>
+      <h2 class="text-lg font-semibold">
+       Admin
+      </h2>
+      <span class="text-sm text-green-500 bg-green-100 px-2 py-1 rounded-full">
+       Administrator
+      </span>
+     </div>
+     <nav class="mt-8">
+      <ul>
+       <li class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded-md">
+        <i class="fas fa-box mr-2">
+        </i>
+        Product
+       </li>
+       <li class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded-md">
+        <i class="fas fa-truck mr-2">
+        </i>
+        Supplier
+       </li>
+       <li class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded-md">
+        <i class="fas fa-exchange-alt mr-2">
+        </i>
+        Transaction
+       </li>
+       <li class="flex items-center p-2 text-blue-600 bg-blue-100 rounded-md">
+        <i class="fas fa-shopping-cart mr-2">
+        </i>
+        Purchase
+       </li>
+      </ul>
+     </nav>
+    </aside>
+    <!-- Main Content -->
+    <main class="flex-1 p-6 bg-gray-50">
+     <h2 class="text-2xl font-semibold text-blue-600">
+      UD Makmur Abadi
+     </h2>
+     <p class="text-lg text-gray-600 mt-2">
+      Update Nota:
+      <span class="text-blue-600">
+       2233425234 [Supplier]
+      </span>
+     </p>
+     <div class="mt-6 bg-white p-6 rounded-lg shadow-md">
+      <div class="flex justify-between items-center mb-4">
+       <button class="bg-blue-600 text-white px-4 py-2 rounded-full">
+        Update Delivered
+       </button>
+       <div class="relative">
+        <input class="border border-gray-300 rounded-full pl-10 pr-4 py-2" placeholder="Search for items" type="text"/>
+        <i class="fas fa-search absolute left-3 top-2.5 text-gray-400">
+        </i>
+       </div>
+      </div>
+      <table class="w-full text-left">
+       <thead>
+        <tr class="text-gray-600">
+         <th class="py-2">
+          No
+         </th>
+         <th class="py-2">
+          Product Name
+         </th>
+         <th class="py-2">
+          Price
+         </th>
+         <th class="py-2">
+          QTY
+         </th>
+         <th class="py-2">
+          Total Payment
+         </th>
+         <th class="py-2">
+          Status
+         </th>
+         <th class="py-2">
+          Update QTY
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr class="border-t">
+         <td class="py-2">
+          1
+         </td>
+         <td class="py-2">
+          2914404384
+         </td>
+         <td class="py-2">
+          8000.00
+         </td>
+         <td class="py-2">
+          10
+         </td>
+         <td class="py-2">
+          20000
+         </td>
+         <td class="py-2">
+          <span class="bg-red-100 text-red-500 px-2 py-1 rounded-full">
+           Unpaid
+          </span>
+         </td>
+         <td class="py-2">
+          <input class="border border-gray-300 rounded-full w-16 text-center" type="number"/>
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          2
+         </td>
+         <td class="py-2">
+          4013449971
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          20000
+         </td>
+         <td class="py-2">
+          <span class="bg-green-100 text-green-500 px-2 py-1 rounded-full">
+           Sudah Kembali
+          </span>
+         </td>
+         <td class="py-2">
+          <input class="border border-gray-300 rounded-full w-16 text-center" type="number"/>
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          3
+         </td>
+         <td class="py-2">
+          0376094284
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          20000
+         </td>
+         <td class="py-2">
+          <span class="bg-yellow-100 text-yellow-500 px-2 py-1 rounded-full">
+           On process
+          </span>
+         </td>
+         <td class="py-2">
+          <input class="border border-gray-300 rounded-full w-16 text-center" type="number"/>
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          4
+         </td>
+         <td class="py-2">
+          4562457704
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          2
+         </td>
+         <td class="py-2">
+          <span class="bg-red-100 text-red-500 px-2 py-1 rounded-full">
+           Belum Kembali
+          </span>
+         </td>
+         <td class="py-2">
+          <input class="border border-gray-300 rounded-full w-16 text-center" type="number"/>
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          5
+         </td>
+         <td class="py-2">
+          1794000537
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          2
+         </td>
+         <td class="py-2">
+          <span class="bg-green-100 text-green-500 px-2 py-1 rounded-full">
+           Sudah Kembali
+          </span>
+         </td>
+         <td class="py-2">
+          <input class="border border-gray-300 rounded-full w-16 text-center" type="number"/>
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          6
+         </td>
+         <td class="py-2">
+          3554926113
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          1
+         </td>
+         <td class="py-2">
+          <span class="bg-red-100 text-red-500 px-2 py-1 rounded-full">
+           Belum Kembali
+          </span>
+         </td>
+         <td class="py-2">
+          <input class="border border-gray-300 rounded-full w-16 text-center" type="number"/>
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          7
+         </td>
+         <td class="py-2">
+          2766347307
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          1
+         </td>
+         <td class="py-2">
+          <span class="bg-red-100 text-red-500 px-2 py-1 rounded-full">
+           Belum Kembali
+          </span>
+         </td>
+         <td class="py-2">
+          <input class="border border-gray-300 rounded-full w-16 text-center" type="number"/>
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          8
+         </td>
+         <td class="py-2">
+          2392601775
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          2
+         </td>
+         <td class="py-2">
+          <span class="bg-green-100 text-green-500 px-2 py-1 rounded-full">
+           Sudah Kembali
+          </span>
+         </td>
+         <td class="py-2">
+          <input class="border border-gray-300 rounded-full w-16 text-center" type="number"/>
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          9
+         </td>
+         <td class="py-2">
+          2089068506
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          1
+         </td>
+         <td class="py-2">
+          <span class="bg-red-100 text-red-500 px-2 py-1 rounded-full">
+           Belum Kembali
+          </span>
+         </td>
+         <td class="py-2">
+          <input class="border border-gray-300 rounded-full w-16 text-center" type="number"/>
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          10
+         </td>
+         <td class="py-2">
+          9596795839
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          -
+         </td>
+         <td class="py-2">
+          1
+         </td>
+         <td class="py-2">
+          <span class="bg-red-100 text-red-500 px-2 py-1 rounded-full">
+           Belum Kembali
+          </span>
+         </td>
+         <td class="py-2">
+          <input class="border border-gray-300 rounded-full w-16 text-center" type="number"/>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class="mt-6 flex justify-end">
+      <button class="bg-blue-600 text-white px-4 py-2 rounded-full">
+       To be returned
+      </button>
+     </div>
+    </main>
+   </div>
+  </div>
+ </body>
+</html>
